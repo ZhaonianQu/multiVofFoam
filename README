@@ -1,7 +1,7 @@
-1. OpenFoam version is v2306. Eigen version is 3.4.0 (If using different Eigen version, when compiling the code, there are some warnings but it will compile and calculate well).
+1. MultiphaseInterFoam+VDROP to ensure boundedeness by limiting the diffusion and bouyancy
 
+2. OpenFoam version is v2306. Eigen version is 3.4.0 (If using different Eigen version, when compiling the code, there are some warnings but it will compile and calculate well).
 
-2. This version consider the VDROP breakup, VDROP coalescence (3 collision), rising velocity and diffusion source term.
+3. This version consider the VDROP breakup, no VDROP coalescence, rising velocity and diffusion source term.
 
-
-3.  In constant/transportProperties, the order of each phase must be water, air, then smaller droplets to larger droplets. (17 droplet size)
+4. In constant/transportProperties, the order of each phase must be water, air, then smaller droplets to larger droplets. (17 droplet size)

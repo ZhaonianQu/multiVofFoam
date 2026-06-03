@@ -1,0 +1,13 @@
+mixture.H
+
+hash/hash function is to create a unique value for each input, which is convenient for looking up and store.
+
+interfacePair class has three different constructors for different construction input.
+
+There is no need to use ";" after Body function {} .
+
+friend can access private data of a class.
+
+tmp will disappear immediately after the value passed.
+
+ 
